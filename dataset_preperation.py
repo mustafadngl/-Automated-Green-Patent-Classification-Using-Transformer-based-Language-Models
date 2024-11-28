@@ -1,7 +1,25 @@
-from datasets import Dataset
+# Parsing XML data to extract abstracts and classifications
+def parse_xml(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+    
+    abstracts = []
+    classifications = []
+    
+    # Traverse through each patent element
+    for patent in root.findall('.//us-patent-grant'): 
+        abstract_text = patent.findtext('abstract')
+        classification = patent.findtext('.//classification-ipc')
+        
+        if abstract_text and classification:
+            abstracts.append(abstract_text.strip())
+            classifications.append(classification.strip())
+    
+    return pd.DataFrame({'abstract': abstracts, 'classification': classifications})
 
-train_data = data.sample(frac=0.8, random_state=42)
-test_data = data.drop(train_data.index)
+# Load and preprocess the data
+data = parse_xml("path_to_patent_data.xml")
 
-train_dataset = Dataset.from_pandas(train_data)
-test_dataset = Dataset.from_pandas(test_data)
+# Create a binary label for "green" patents
+data['label'] = data['classification'].apply(lambda x: 1 if "green" in x.lower() else 0)
+data = data.dropna(subset=['abstract'])  # Remove rows with missing abstracts
