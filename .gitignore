@@ -1,4 +1,3 @@
 /.venv
 /.vscode
-/.data
-/.data_processed
+*.db
