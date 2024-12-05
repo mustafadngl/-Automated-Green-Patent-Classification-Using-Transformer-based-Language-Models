@@ -49,4 +49,4 @@ while True:
 #data = pd.concat(dfs)
 conn.commit()
 conn.close()
-print(count_final)
+print(count_final) # =241911.0 for  granted patents in 2024
