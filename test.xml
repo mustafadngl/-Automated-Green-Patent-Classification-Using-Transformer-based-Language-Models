@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v47-2022-02-17.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.7 2022-02-17" file="USD1009402-20240102.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20231213" date-publ="20240102">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>D1009402</doc-number>
+<kind>S1</kind>
+<date>20240102</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="design">
+<document-id>
+<country>US</country>
+<doc-number>29889447</doc-number>
+<date>20230412</date>
+</document-id>
+</application-reference>
+<us-application-series-code>29</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="national">
+<country>NZ</country>
+<doc-number>756215</doc-number>
+<date>20190809</date>
+</priority-claim>
+<priority-claim sequence="02" kind="national">
+<country>AU</country>
+<doc-number>202216915</doc-number>
+<date>20221123</date>
+</priority-claim>
+<priority-claim sequence="03" kind="national">
+<country>AU</country>
+<doc-number>202311450</doc-number>
+<date>20230315</date>
+</priority-claim>
+</priority-claims>
+<us-term-of-grant>
+<length-of-grant>15</length-of-grant>
+</us-term-of-grant>
+<classification-locarno>
+<edition>14</edition>
+<main-classification>0101</main-classification>
+</classification-locarno>
+<classification-national>
+<country>US</country>
+<main-classification>D 1106</main-classification>
+<further-classification> D1127</further-classification>
+<further-classification> D1130</further-classification>
+</classification-national>
+<invention-title id="d2e108">Confectionery-coated container</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>D21231</doc-number>
+<kind>S</kind>
+<name>Menke</name>
+<date>18911200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D99 37</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>1423122</doc-number>
+<kind>A</kind>
+<name>Kyriazopoulos</name>
+<date>19220700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>1651960</doc-number>
+<kind>A</kind>
+<name>Miller</name>
+<date>19271200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>A63H 37/00</classification-cpc-text>
+<classification-national><country>US</country><main-classification> 40538</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>D89978</doc-number>
+<kind>S</kind>
+<name>Vuillemenot</name>
+<date>19330500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D28 911</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>D178164</doc-number>
+<kind>S</kind>
+<name>West</name>
+<date>19560600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D11131</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>2998896</doc-number>
+<kind>A</kind>
+<name>Miller</name>
+<date>19610900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>4106657</doc-number>
+<kind>A</kind>
+<name>Dogliotti</name>
+<date>19780800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>D254155</doc-number>
+<kind>S</kind>
+<name>Allen</name>
+<date>19800200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D26104</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>D273766</doc-number>
+<kind>S</kind>
+<name>Lampe</name>
+<date>19840500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>D312845</doc-number>
+<kind>S</kind>
+<name>Matsuda</name>
+<date>19901200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D21479</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>5287979</doc-number>
+<kind>A</kind>
+<name>Bourgeois</name>
+<date>19940200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>5792496</doc-number>
+<kind>A</kind>
+<name>Fekete et al.</name>
+<date>19980600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>5813895</doc-number>
+<kind>A</kind>
+<name>Cho</name>
+<date>19980900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>5925391</doc-number>
+<kind>A</kind>
+<name>Whetstone</name>
+<date>19990700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>D441596</doc-number>
+<kind>S</kind>
+<name>Fernandez</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>D475288</doc-number>
+<kind>S</kind>
+<name>Hoffmann et al.</name>
+<date>20030600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>8844720</doc-number>
+<kind>B2</kind>
+<name>Lantinen</name>
+<date>20140900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>D723364</doc-number>
+<kind>S</kind>
+<name>Halbur et al.</name>
+<date>20150300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>D735414</doc-number>
+<kind>S</kind>
+<name>Schlatter</name>
+<date>20150700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 9600</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>US</country>
+<doc-number>D771873</doc-number>
+<kind>S</kind>
+<name>Teller</name>
+<date>20161100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 9551</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>US</country>
+<doc-number>9550128</doc-number>
+<kind>B1</kind>
+<name>Pruzansky et al.</name>
+<date>20170100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>US</country>
+<doc-number>D789241</doc-number>
+<kind>S</kind>
+<name>Cao</name>
+<date>20170600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>US</country>
+<doc-number>D828031</doc-number>
+<kind>S</kind>
+<name>Bloomfield et al.</name>
+<date>20180900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>US</country>
+<doc-number>D854749</doc-number>
+<kind>S</kind>
+<name>Lushefski</name>
+<date>20190700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00025">
+<document-id>
+<country>US</country>
+<doc-number>10610490</doc-number>
+<kind>B2</kind>
+<name>Stegemann et al.</name>
+<date>20200400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00026">
+<document-id>
+<country>US</country>
+<doc-number>D913107</doc-number>
+<kind>S</kind>
+<name>You</name>
+<date>20210300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00027">
+<document-id>
+<country>US</country>
+<doc-number>11091295</doc-number>
+<kind>B2</kind>
+<name>Lushefski</name>
+<date>20210800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00028">
+<document-id>
+<country>US</country>
+<doc-number>D934436</doc-number>
+<kind>S</kind>
+<name>Xia</name>
+<date>20211000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D24195</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00029">
+<document-id>
+<country>US</country>
+<doc-number>D942112</doc-number>
+<kind>S</kind>
+<name>Toombs</name>
+<date>20220200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>D 1127</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00030">
+<document-id>
+<country>US</country>
+<doc-number>D966787</doc-number>
+<kind>S</kind>
+<name>Parks</name>
+<date>20221000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B01F 35/32021</classification-cpc-text>
+<classification-national><country>US</country><main-classification>D 7376</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00031">
+<document-id>
+<country>US</country>
+<doc-number>D981513</doc-number>
+<kind>S</kind>
+<name>Su</name>
+<date>20230300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00032">
+<document-id>
+<country>US</country>
+<doc-number>20020033397</doc-number>
+<kind>A1</kind>
+<name>Henson</name>
+<date>20020300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00033">
+<document-id>
+<country>US</country>
+<doc-number>20030075830</doc-number>
+<kind>A1</kind>
+<name>Sollich</name>
+<date>20030400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00034">
+<document-id>
+<country>US</country>
+<doc-number>20070017915</doc-number>
+<kind>A1</kind>
+<name>Weder et al.</name>
+<date>20070100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00035">
+<document-id>
+<country>US</country>
+<doc-number>20070108092</doc-number>
+<kind>A1</kind>
+<name>Minuto et al.</name>
+<date>20070500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00036">
+<document-id>
+<country>US</country>
+<doc-number>20110123687</doc-number>
+<kind>A1</kind>
+<name>Gass</name>
+<date>20110500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00037">
+<document-id>
+<country>US</country>
+<doc-number>20150210432</doc-number>
+<kind>A1</kind>
+<name>Lam</name>
+<date>20150700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00038">
+<document-id>
+<country>US</country>
+<doc-number>20180206614</doc-number>
+<kind>A1</kind>
+<name>Lushefski</name>
+<date>20180700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>A45D 33/18</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00039">
+<document-id>
+<country>US</country>
+<doc-number>20220279810</doc-number>
+<kind>A1</kind>
+<name>Lee</name>
+<date>20220900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>A23G 3/545</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00040">
+<document-id>
+<country>CA</country>
+<doc-number>55176</doc-number>
+<date>19851000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00041">
+<document-id>
+<country>CA</country>
+<doc-number>78812</doc-number>
+<date>19960800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00042">
+<document-id>
+<country>CA</country>
+<doc-number>84077</doc-number>
+<date>19980600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00043">
+<document-id>
+<country>CA</country>
+<doc-number>147617</doc-number>
+<date>20131100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00044">
+<document-id>
+<country>CN</country>
+<doc-number>303907444</doc-number>
+<date>20161100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00045">
+<document-id>
+<country>CN</country>
+<doc-number>304341538</doc-number>
+<date>20171100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00046">
+<document-id>
+<country>CN</country>
+<doc-number>305137778</doc-number>
+<date>20190500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00047">
+<document-id>
+<country>CN</country>
+<doc-number>305146390</doc-number>
+<date>20190500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00048">
+<document-id>
+<country>CN</country>
+<doc-number>305357640</doc-number>
+<date>20190900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00049">
+<document-id>
+<country>CN</country>
+<doc-number>305810551</doc-number>
+<date>20200500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00050">
+<document-id>
+<country>CN</country>
+<doc-number>305865111</doc-number>
+<date>20200600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00051">
+<document-id>
+<country>CN</country>
+<doc-number>306816235</doc-number>
+<date>20210900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00052">
+<document-id>
+<country>CN</country>
+<doc-number>307274165</doc-number>
+<date>20220400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00053">
+<document-id>
+<country>CN</country>
+<doc-number>307479566</doc-number>
+<date>20220800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00054">
+<document-id>
+<country>DE</country>
+<doc-number>197735864</doc-number>
+<kind>U</kind>
+<date>19780300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00055">
+<document-id>
+<country>DE</country>
+<doc-number>198025691</doc-number>
+<kind>U1</kind>
+<date>19810300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00056">
+<document-id>
+<country>DE</country>
+<doc-number>20001480</doc-number>
+<kind>U1</kind>
+<date>20000700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00057">
+<document-id>
+<country>DE</country>
+<doc-number>202005020050</doc-number>
+<kind>U1</kind>
+<date>20060400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00058">
+<document-id>
+<country>EM</country>
+<doc-number>001106470-0001</doc-number>
+<date>20090300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00059">
+<document-id>
+<country>EM</country>
+<doc-number>005222502-0001</doc-number>
+<date>20180400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00060">
+<document-id>
+<country>EM</country>
+<doc-number>008465645-0001</doc-number>
+<date>20210300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00061">
+<document-id>
+<country>EP</country>
+<doc-number>1413205</doc-number>
+<kind>B1</kind>
+<date>20060400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00062">
+<document-id>
+<country>GB</country>
+<doc-number>467476</doc-number>
+<kind>A</kind>
+<date>19370600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00063">
+<document-id>
+<country>GB</country>
+<doc-number>2036006</doc-number>
+<date>19931200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00064">
+<document-id>
+<country>GB</country>
+<doc-number>2494889</doc-number>
+<kind>A</kind>
+<date>20130300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00065">
+<document-id>
+<country>GB</country>
+<doc-number>9005222502-0001</doc-number>
+<date>20180400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00066">
+<document-id>
+<country>JP</country>
+<doc-number>D1303988</doc-number>
+<date>20070500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00067">
+<document-id>
+<country>KR</country>
+<doc-number>300858839.0000</doc-number>
+<date>20160600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00068">
+<document-id>
+<country>KR</country>
+<doc-number>300950844.0000</doc-number>
+<date>20170800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00069">
+<document-id>
+<country>KR</country>
+<doc-number>300950845.0000</doc-number>
+<date>20170800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00070">
+<document-id>
+<country>KR</country>
+<doc-number>20170142439</doc-number>
+<kind>A</kind>
+<date>20171200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00071">
+<document-id>
+<country>KR</country>
+<doc-number>1938630</doc-number>
+<kind>B1</kind>
+<date>20190400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00072">
+<document-id>
+<country>KR</country>
+<doc-number>1955284</doc-number>
+<kind>B1</kind>
+<date>20190500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00073">
+<document-id>
+<country>KR</country>
+<doc-number>2036208</doc-number>
+<kind>B1</kind>
+<date>20191000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00074">
+<document-id>
+<country>KR</country>
+<doc-number>2133993</doc-number>
+<kind>B1</kind>
+<date>20230200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00075">
+<document-id>
+<country>RU</country>
+<doc-number>00077129</doc-number>
+<date>20110100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00076">
+<document-id>
+<country>RU</country>
+<doc-number>00095194</doc-number>
+<date>20150800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00077">
+<document-id>
+<country>WO</country>
+<doc-number>WO 1997019604</doc-number>
+<kind>A1</kind>
+<date>19970600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00078">
+<document-id>
+<country>WO</country>
+<doc-number>WO2015124642</doc-number>
+<kind>A1</kind>
+<date>20150800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00079">
+<document-id>
+<country>WO</country>
+<doc-number>WO2023007892</doc-number>
+<kind>A1</kind>
+<date>20230200</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00080">
+<document-id>
+<country>WO</country>
+<doc-number>WO D220158-001</doc-number>
+<date>20230300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>1</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>D 1100-130</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 1199</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>426  5</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>426104</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>426249</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>426275</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>426660</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D24101-104</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>273429</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 9707</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D28  81</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D14433</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 7354</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 7359</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 7391</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D 7672</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D15 90</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D23366</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>D25138</main-classification>
+</classification-national>
+<classification-cpc-text>A23G 3/54</classification-cpc-text>
+<classification-cpc-text>A23G 4/20</classification-cpc-text>
+<classification-cpc-text>A23G 3/343</classification-cpc-text>
+<classification-cpc-text>A23G 3/36</classification-cpc-text>
+<classification-cpc-text>A23G 3/28</classification-cpc-text>
+<classification-cpc-text>A61K 9/2072</classification-cpc-text>
+<classification-cpc-text>A61K 9/2095</classification-cpc-text>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>3</number-of-drawing-sheets>
+<number-of-figures>5</number-of-figures>
+</figures>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>17632165</doc-number>
+</document-id>
+<parent-status>PENDING</parent-status>
+<parent-pct-document>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/SG2020/050461</doc-number>
+<date>20200807</date>
+</document-id>
+</parent-pct-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>29889447</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="obligated-assignee">
+<addressbook>
+<orgname>ZURU (SINGAPORE) PTE. LTD.</orgname>
+<address>
+<city>Singapore</city>
+<country>SG</country>
+</address>
+</addressbook>
+<residence>
+<country>SG</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Mowbray</last-name>
+<first-name>Mathew Peter</first-name>
+<address>
+<city>Mid-levels West</city>
+<country>HK</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="002" designation="us-only">
+<addressbook>
+<last-name>Lee</last-name>
+<first-name>Chung Hyun</first-name>
+<address>
+<city>Seoul</city>
+<country>KR</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="003" designation="us-only">
+<addressbook>
+<last-name>Smith</last-name>
+<first-name>David Johnston</first-name>
+<address>
+<city>Auckland</city>
+<country>NZ</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="004" designation="us-only">
+<addressbook>
+<last-name>Santillan</last-name>
+<first-name>Diwata Katrina Dinglasa</first-name>
+<address>
+<city>Auckland</city>
+<country>NZ</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="005" designation="us-only">
+<addressbook>
+<last-name>Harrold</last-name>
+<first-name>Ethan Luke</first-name>
+<address>
+<city>Auckland</city>
+<country>NZ</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="006" designation="us-only">
+<addressbook>
+<last-name>Hutchinson</last-name>
+<first-name>Ethan</first-name>
+<address>
+<city>Dairy Flat</city>
+<country>NZ</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Sterne, Kessler, Goldstein &#x26; Fox P.L.L.C.</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Zuru (Singapore) Pte. Ltd.</orgname>
+<role>03</role>
+<address>
+<city>Singapore</city>
+<country>SG</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Stofko</last-name>
+<first-name>Katie Jane</first-name>
+<department>2911</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="77.98mm" wi="58.17mm" file="USD1009402-20240102-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="195.75mm" wi="90.00mm" file="USD1009402-20240102-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="180.59mm" wi="91.36mm" file="USD1009402-20240102-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="89.41mm" wi="78.66mm" file="USD1009402-20240102-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<p id="p-0001" num="0001"><figref idref="DRAWINGS">FIG. <b>1</b></figref> is a front view of a confectionery-coated container;</p>
+<p id="p-0002" num="0002"><figref idref="DRAWINGS">FIG. <b>2</b></figref> is a rear view thereof;</p>
+<p id="p-0003" num="0003"><figref idref="DRAWINGS">FIG. <b>3</b></figref> is a top view thereof;</p>
+<p id="p-0004" num="0004"><figref idref="DRAWINGS">FIG. <b>4</b></figref> is a front, top and right side perspective view thereof; and,</p>
+<p id="p-0005" num="0005"><figref idref="DRAWINGS">FIG. <b>5</b></figref> is a bottom, front and right side perspective view thereof.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+</description>
+<us-claim-statement>CLAIM</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>The ornamental design for a confectionery-coated container, as shown and described.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

@@ -1,0 +1,6 @@
+/.venv
+/.vscode
+/.green_patent_model_trained_granted2024
+./green_patent_model_100
+/.results
+*.db
