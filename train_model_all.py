@@ -23,8 +23,8 @@ while True:
     print(df_green.head())
     if df_green.empty:
         break
-    if offset > 10000:
-        break
+    #if offset > 10000:
+    #    break
     labeled_data = df_green.dropna(subset=['description_text', 'is_green'])
     labeled_data['is_green'] = labeled_data['is_green'].astype(int)
     hf_dataset = Dataset.from_pandas(labeled_data[['description_text', 'is_green']])
