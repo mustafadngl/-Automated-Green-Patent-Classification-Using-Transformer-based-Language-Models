@@ -1,15 +1,34 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from sklearn.metrics import classification_report, precision_score, recall_score, f1_score, accuracy_score
 import torch
+import sqlite3
+import pandas as pd
+import random
+from datasets import Dataset
 
+
+cur = sqlite3.connect('em500database.db')
 model_dir = "green_patent_model_trained_granted2024"
 model = AutoModelForSequenceClassification.from_pretrained(model_dir)
 tokenizer = AutoTokenizer.from_pretrained(model_dir)
 
+def tokenize_function(examples):
+    tokens = tokenizer(examples['description_text'], truncation=True, padding='max_length')
+    tokens['labels'] = examples['is_green']  # Add labels to the tokenized output
+    return tokens
+random_offset = random.randint(1,20000)
+query = f"SELECT * FROM g_detail_desc_text_2024_isgreen LIMIT 10 OFFSET {random_offset}"
+df_test = pd.read_sql_query(query, cur)
+print(df_test.head())
+labeled_data = df_test.dropna(subset=['description_text', 'is_green'])
+labeled_data['is_green'] = labeled_data['is_green'].astype(int)
+hf_dataset = Dataset.from_pandas(labeled_data[['description_text', 'is_green']])
+tokenized_dataset_test = hf_dataset.map(tokenize_function, batched=True)
+
 # Example: Load test dataset (if it's saved or still available in memory) ???
 # Use the already tokenized test_dataset from earlier or re-tokenize your test data
-test_texts = [item['description_text'] for item in test_dataset]  # Original test descriptions
-test_labels = [item['labels'] for item in test_dataset]  # True labels
+test_texts = [item['description_text'] for item in tokenized_dataset_test]  # Original test descriptions
+test_labels = [item['labels'] for item in tokenized_dataset_test]  # True labels
 
 predictions = []
 true_labels = []
@@ -35,7 +54,7 @@ print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
 print(f"F1-Score: {f1:.2f}")
 
-report = classification_report(true_labels, predictions, target_names=["Non-Green", "Green"])
+report = classification_report(true_labels, predictions, target_names=["description_text", "is_green"])
 print("\nClassification Report:\n")
 print(report)
 
