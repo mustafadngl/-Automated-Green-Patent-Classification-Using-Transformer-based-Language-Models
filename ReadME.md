@@ -1,33 +1,33 @@
 This is a model training project in order to specify green data. An Example .xml file has demonstrated in repo. Aim is use last 2 years grandted and application data in order to classify patent "green" or not.
 
-# In order to process any python file in the project follow the process below accordingly:
-## Create a virtual environment in order to make sure requirements has been imported from Command Line Interface (CLI or terminal).
+### In order to process any python file in the project follow the process below accordingly:
+### Create a virtual environment in order to make sure requirements has been imported from Command Line Interface (CLI or terminal).
      python -m venv .venv
-## Install requirements. ('requirement.txt' provided for used stack). Also, torch library can be need to installed seperately if used script throws an error. 
+### Install requirements. ('requirement.txt' provided for used stack). Also, torch library can be need to installed seperately if used script throws an error. 
      pip insrall -r requrements.txt     
 *    pip3 install torch torchvision torchaudio
      pip install transformers[torch]
-## Then from Command Line Interface (CLI or terminal)
+### Then from Command Line Interface (CLI or terminal)
      python <python_script_name>
 *data_collection branch demonstrates an example output for a patent data which is extracted from USPTO database.m
 
 # Below Steps have been performed while training model.
 ### Step 1:
 Data collection has been performed from USPTO website. "g_cpc_title.tsv" and "g_detail_desc_text_2024" data gathered. Because of the storage and memory efficiency "g_detail_desc_text_2024" data (approximetely 14.7 gigabyte (GB)) has ben imported to SQLite database via "import_data_db.py". And "output.csv" has been generated in order to demonstrated an patent data as an example to raw dataset via "observe_db.py".
-## Run CLI followings
+### Run CLI followings
      python import_data_db.py
      python observe_db.py
 ### Step 2:
 Needed to extract cpc codes and keywords related "green" terms. "green_cpc_keywords.json" file has been created via script "pull_green_cpc_codes_and_keywords.py".
-## Run CLI followings
+### Run CLI followings
      python pull_green_cpc_codes_and_keywords.py
 ### Step 3:
 Granted data (from database g_detail_desc_text_2024 table) has been classified as "green" terms. Imported to database vias 'label_data.py' script.
-## Run CLI followings
+### Run CLI followings
      python label_data.py
 ## Step 4:
 Selected model has been trained via "train_model_first.py' in order to observe code reliability and process time in local machine. Later in order to train via mass data, 'train_model_all.py' has been used.
-## Example a part of training instance in terminal:
+### Example a part of training instance in terminal:
 ***
 Map: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 100/100 [00:01<00:00, 88.74 examples/s]
 Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
@@ -41,12 +41,12 @@ You should probably TRAIN this model on a down-stream task to be able to use it 
 {'eval_loss': 0.023905927315354347, 'eval_runtime': 3.2466, 'eval_samples_per_second': 6.16, 'eval_steps_per_second': 0.924, 'epoch': 3.0}
 Model and tokenizer saved in 'green_patent_model_100' directory.
 ***
-## Run CLI followings
+### Run CLI followings
      python train_model_all.py
 
 ## Step 5:
 In order to test model result a script has been created ('test_layout_classify.py'). Random test data has been classified using by the model. In here, results have could be observed by manual approach. Further test implementation; randomly classified data has been tested in the manners of accuracy, precision, recall and F-1 score tests by "test_layout.py".
-##
+###
      example result of "test_layout.py"
           Classification Report:
 
@@ -65,6 +65,6 @@ In order to test model result a script has been created ('test_layout_classify.p
           - Correctly Classified: 4
           - Incorrectly Classified: 6
           
-## Run CLI followings
+### Run CLI followings
      python test_layout_classify.py (P.S: you have to return to use this code with new test setup in order to apply via "import_data_db.py". Also, have to update script the table stated in the "import_data_db.py" at line 20(query ~ "SELECT * FROM <your_table_name> LIMIT 10").)
      python test_layout.py
