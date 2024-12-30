@@ -1,5 +1,7 @@
 This is a model training project in order to specify green data. An Example .xml file has demonstrated in repo. Aim is use last 2 years grandted and application data in order to classify patent "green" or not.
 
+"workspace.ipynb" folder may lead approach on the project, additionally.
+
 ### In order to process any python file in the project follow the process below accordingly:
 ### Create a virtual environment in order to make sure requirements has been imported from Command Line Interface (CLI or terminal).
      python -m venv .venv
