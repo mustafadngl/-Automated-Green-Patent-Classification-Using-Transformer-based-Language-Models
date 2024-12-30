@@ -1,5 +1,4 @@
-This is a model training project in order to specify green data. An Example .xml file has demonstrated in repo. Aim is use last 2 years grandted and application data in order to classify patent "green" or not.
-
+This is a model training project in order to specify green data. According, to detailed description test bulk data on granted patents BERT based LLM model has been trained in order to classify later patent data.
 "workspace.ipynb" folder may lead approach on the project, additionally.
 
 ### In order to process any python file in the project follow the process below accordingly:
