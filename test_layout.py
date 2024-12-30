@@ -17,7 +17,7 @@ def tokenize_function(examples):
     #tokens['labels'] = examples['is_green']  # Add labels to the tokenized output
     return tokens
 random_offset = random.randint(1,20000)
-query = f"SELECT * FROM g_detail_desc_text_2024 LIMIT 10 OFFSET {random_offset}"
+query = f"SELECT * FROM g_detail_desc_text_1995 LIMIT 1000"
 df_test = pd.read_sql_query(query, cur)
 labeled_data = df_test.dropna(subset=['description_text']) #'is_green'
 #labeled_data['is_green'] = len(labeled_data.index)*[0]#labeled_data['is_green'].astype(int)

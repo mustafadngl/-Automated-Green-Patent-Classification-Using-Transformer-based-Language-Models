@@ -14,7 +14,7 @@ def tokenize_function(examples):
     return tokenizer(examples['description_text'], truncation=True, padding='max_length')
 
 random_offset = random.randint(1, 20000)
-query = f"SELECT description_text FROM g_detail_desc_text_2024 LIMIT 10 OFFSET {random_offset}"
+query = f"SELECT description_text FROM g_detail_desc_text_1995 LIMIT 5"
 df_test = pd.read_sql_query(query, cur)
 
 print("Columns in dataset:", df_test.columns)

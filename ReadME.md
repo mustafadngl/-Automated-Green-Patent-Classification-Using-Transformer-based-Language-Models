@@ -1,4 +1,4 @@
-This is a model training project in order to specify green data. According, to detailed description test bulk data on granted patents BERT based LLM model has been trained in order to classify later patent data.
+This is a model training project in order to specify green data. According, to detailed description test bulk data on granted patents BERT based LLM model has been trained in order to classify later patent data. Data gathered from: https://patentsview.org/download/detail_desc_text
 "workspace.ipynb" folder may lead approach on the project, additionally.
 
 ### In order to process any python file in the project follow the process below accordingly:
@@ -48,7 +48,7 @@ Model and tokenizer saved in 'green_patent_model_100' directory.
 ## Step 5:
 In order to test model result a script has been created ('test_layout_classify.py'). Random test data has been classified using by the model. In here, results have could be observed by manual approach. Further test implementation; randomly classified data has been tested in the manners of accuracy, precision, recall and F-1 score tests by "test_layout.py".
 ###
-     example result of "test_layout.py"
+     example result of "test_layout.py" with minimal test data.
           Classification Report:
 
                         precision    recall  f1-score   support
@@ -65,6 +65,24 @@ In order to test model result a script has been created ('test_layout_classify.p
           - Total Samples: 10
           - Correctly Classified: 4
           - Incorrectly Classified: 6
+     
+     with mass test data:
+               Classification Report:
+          
+                        precision    recall  f1-score   support
+          
+             Non-Green       0.00      0.00      0.00       501
+                 Green       0.50      1.00      0.67       499
+          
+              accuracy                           0.50      1000
+             macro avg       0.25      0.50      0.33      1000
+          weighted avg       0.25      0.50      0.33      1000
+          
+          
+          Summary of Results:
+          - Total Samples: 1000
+          - Correctly Classified: 499
+          - Incorrectly Classified: 501
           
 ### Run CLI followings
      python test_layout_classify.py (P.S: you have to return to use this code with new test setup in order to apply via "import_data_db.py". Also, have to update script the table stated in the "import_data_db.py" at line 20(query ~ "SELECT * FROM <your_table_name> LIMIT 10").)
