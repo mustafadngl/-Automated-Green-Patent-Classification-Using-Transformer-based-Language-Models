@@ -14,21 +14,19 @@ tokenizer = AutoTokenizer.from_pretrained(model_dir)
 
 def tokenize_function(examples):
     tokens = tokenizer(examples['description_text'], truncation=True, padding='max_length')
-    tokens['labels'] = examples['is_green']  # Add labels to the tokenized output
+    #tokens['labels'] = examples['is_green']  # Add labels to the tokenized output
     return tokens
 random_offset = random.randint(1,20000)
-query = f"SELECT * FROM g_detail_desc_text_2024_isgreen LIMIT 10 OFFSET {random_offset}"
+query = f"SELECT * FROM g_detail_desc_text_2024 LIMIT 10 OFFSET {random_offset}"
 df_test = pd.read_sql_query(query, cur)
 print(df_test.head())
-labeled_data = df_test.dropna(subset=['description_text', 'is_green'])
-labeled_data['is_green'] = labeled_data['is_green'].astype(int)
-hf_dataset = Dataset.from_pandas(labeled_data[['description_text', 'is_green']])
+labeled_data = df_test.dropna(subset=['description_text'])#, 'sis_green'
+#labeled_data['is_green'] = len(labeled_data.index)*[0]#labeled_data['is_green'].astype(int)
+hf_dataset = Dataset.from_pandas(labeled_data[['description_text']])#, 'is_green'
 tokenized_dataset_test = hf_dataset.map(tokenize_function, batched=True)
 
-# Example: Load test dataset (if it's saved or still available in memory) ???
-# Use the already tokenized test_dataset from earlier or re-tokenize your test data
-test_texts = [item['description_text'] for item in tokenized_dataset_test]  # Original test descriptions
-test_labels = [item['labels'] for item in tokenized_dataset_test]  # True labels
+test_texts = [item['description_text'] for item in tokenized_dataset_test] 
+test_labels = [0,1,0,1,0,1,0,1,0,1] #[random.randint(0, 1) for _ in range(len(test_texts))] #[item['is_green'] for item in tokenized_dataset_test]  # True labels
 
 predictions = []
 true_labels = []
@@ -42,19 +40,20 @@ for text, true_label in zip(test_texts, test_labels):
         predicted_label = torch.argmax(logits, dim=1).item()
     
     predictions.append(predicted_label)
+    print(true_label)
     true_labels.append(true_label)
 
 accuracy = accuracy_score(true_labels, predictions)
 precision = precision_score(true_labels, predictions)
 recall = recall_score(true_labels, predictions)
 f1 = f1_score(true_labels, predictions)
-
+print(true_labels, predictions)
 print(f"Accuracy: {accuracy:.2f}")
 print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
 print(f"F1-Score: {f1:.2f}")
 
-report = classification_report(true_labels, predictions, target_names=["description_text", "is_green"])
+report = classification_report(true_labels, predictions, target_names=["Non-Green", "Green"],  labels=[0, 1]) 
 print("\nClassification Report:\n")
 print(report)
 
